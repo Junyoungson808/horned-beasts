@@ -9,6 +9,11 @@ class HornedBeast extends React.Component {
 
             <div className="item">
             <h2>{this.props.name}</h2>
+            
+
+
+
+
             </div>
 
         )
