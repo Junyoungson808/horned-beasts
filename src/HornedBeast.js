@@ -25,7 +25,7 @@ class HornedBeast extends React.Component {
             <div className="item">
             <h2>{this.props.name}</h2>
             <img src={this.props.image} width="300" alt={this.props.title} />
-            <Counter theCounter={this.increment} count={this.state.count}/>
+            <Counter theCounter={this.increment} theCount={this.state.count}/>
 
             </div>
 

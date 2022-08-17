@@ -17,7 +17,7 @@ class Counter extends React.Component {
         return (
             
             <div onClick={this.props.theCounter}>
-            <div> {this.props.count} </div>
+            <div> {this.props.theCount} </div>
             </div>
 
         )
