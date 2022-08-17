@@ -1,15 +1,23 @@
 import React from 'react';
-import Row from './Row.js';
+import HornedBeast from './HornedBeast.js';
+import data from './data.json';
+
+console.log(data);
 
 class Main extends React.Component {
 
+    beastItem = data.map((value) => {
+        return <HornedBeast name={value.title} image={value.image_url} />
+    }
+)
+
     render() {
         return (
-            <section>
+            <main>
 
-              <Row />
-
-            </section>
+              {this.beastItem}
+              
+            </main>
 
         )
     }
