@@ -1,3 +1,36 @@
+### Lab 1:
+Number and name of feature: _____React___________________________
+
+Estimate of time needed to complete: __5 hours___
+
+Start time: __3:00pm___
+
+Finish time: _10:00pm____
+
+Actual time needed to complete: __7 hours___
+
+### Lab 2:
+Number and name of feature: ___React - Img Render - Counter___
+
+Estimate of time needed to complete: _5 hours____
+
+Start time: _2:30____
+
+Finish time: _6:00____
+
+Actual time needed to complete: _4:00____
+
+### Lab 3:
+Number and name of feature: ___Gallary Of Horns___
+
+Estimate of time needed to complete: _5 hours____
+
+Start time: _4:00____
+
+Finish time: _6:00____
+
+Actual time needed to complete: _4:00____
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,14 +101,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-Number and name of feature: ________________________________
-
-Estimate of time needed to complete: _____
-
-Start time: _____
-
-Finish time: _____
-
-Actual time needed to complete: _____
