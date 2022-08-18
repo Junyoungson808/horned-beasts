@@ -10,7 +10,7 @@ Finish time: _10:00pm____
 Actual time needed to complete: __7 hours___
 
 ### Lab 2:
-Number and name of feature: ___React - Img Render - Counter___
+Number and name of feature: ___React State and Props___
 
 Estimate of time needed to complete: _5 hours____
 
@@ -18,18 +18,18 @@ Start time: _2:30____
 
 Finish time: _6:00____
 
-Actual time needed to complete: _4:00____
+Actual time needed to complete: _3:30____
 
 ### Lab 3:
 Number and name of feature: ___Gallary Of Horns___
 
 Estimate of time needed to complete: _5 hours____
 
-Start time: _4:00____
+Start time: _3:00____
 
-Finish time: _6:00____
+Finish time: _7:38____
 
-Actual time needed to complete: _4:00____
+Actual time needed to complete: _4:38____
 
 # Getting Started with Create React App
 
