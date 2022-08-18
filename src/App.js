@@ -6,8 +6,6 @@ import Form from "./components/Form.js"
 import List from "./components/List.js"
 
 
-
-
 class App extends React.Component {
 
   constructor(props) {
