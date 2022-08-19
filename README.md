@@ -32,15 +32,15 @@ Finish time: _7:38_
 Actual time needed to complete: _4:38_
 
 ### Lab 4:
-Number and name of feature: __Gallary Of Horns__
+Number and name of feature: __Filter by Number of Horns__
 
-Estimate of time needed to complete: _5 hours_
+Estimate of time needed to complete: _5 hoursish_
 
-Start time: _3:00_
+Start time: _4:00_
 
-Finish time: _7:38_
+Finish time: _8:54_
 
-Actual time needed to complete: _4:38_
+Actual time needed to complete: _4:54_
 
 ### Lab 5:
 Number and name of feature: __Gallary Of Horns__
