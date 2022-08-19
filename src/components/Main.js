@@ -57,7 +57,7 @@ class Main extends React.Component {
         <main>
           <Modal show={this.state.show} onHide={this.handleClose}>
             <Modal.Header closeButton>
-              <Modal.Title>{this.props.loveHornedBeast.currentName}</Modal.Title>
+              <Modal.Title>{this.props.currentName}</Modal.Title>
             </Modal.Header>
             <Modal.Body>
               <img src={this.state.image} width="300" alt={this.state.title} />
