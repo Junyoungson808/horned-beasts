@@ -14,9 +14,7 @@ class HornedBeast extends React.Component {
     }
     
     increment = () => {
-        // let nextState = {
-        //     count: this.state.count + 1
-        // }
+        // let nextState = {count: this.state.count + 1}
         // this.setState(nextState);
         
         this.setState( {count: this.state.count +1 });
