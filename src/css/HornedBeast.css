@@ -1,7 +1,9 @@
 .item {
     background-color: grey;
-    margin: 2em;
-    padding: 1em;
+    margin: 3em;
+    padding: 1.5em;
     height: auto;
-    width: auto;
+    width: min-content;
+
 }
+

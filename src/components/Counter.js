@@ -2,10 +2,6 @@ import React from "react";
 
 class Counter extends React.Component {
 
-
-
-
-
 // decrement = (e) => {
 //     let nextState = {
 //         count: this.state.count + 1

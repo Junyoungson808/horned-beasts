@@ -14,7 +14,7 @@ class Main extends React.Component {
     super(props);
     this.state = {
       show: false,
-      currentName: '',
+      currentName: "",
     };
   }
 
@@ -33,14 +33,15 @@ class Main extends React.Component {
 
   beastItem = data.map((value) => {
     return (
-      <Col key={value._id}>
+      <Col id={value._id}>
         <HornedBeast
-          key={value._id}
-          value={value}
-          name={value.title}
           image={value.image_url}
+          title={value.title}
           description={value.description}
+          keyword={value.keyword}
+          horns={value.horns}
           handler={this.loveHornedBeast}
+          value={value}
           />
         </Col>
     );
@@ -49,7 +50,7 @@ class Main extends React.Component {
   render() {
     return (
       <>
-        <Container>
+        <Container className="container1">
           <Row sm="1" md="2" lg="3">
             {this.beastItem}
           </Row>
