@@ -24,15 +24,17 @@ class HornedBeast extends React.Component {
     render() {
 
         return (
-
+            <>
             <div className="item">
-            <h2 className="Font">{this.props.name}</h2>
+            <h2>{this.props.title}</h2>
             <img src={this.props.image} width="300" height="250" alt={this.props.title} />
-            <p className="DescriptionHTML">{this.props.description}</p>
+            <p>Description: {this.props.description}</p>
+            <p>Keyword: {this.props.keyword}</p>
+            <p>Horns: {this.props.horns}</p>
             <Counter theCounter={this.increment} theCount={this.state.count}/>
 
             </div>
-
+            </>
         )
     }
 }
