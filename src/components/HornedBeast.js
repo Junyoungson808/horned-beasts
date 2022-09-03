@@ -2,6 +2,9 @@ import React from "react";
 import Counter from './Counter.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/HornedBeast.css'
+// import SelectedBeast from "./SelectedBeast.js";
+
+
 
 class HornedBeast extends React.Component {
 
@@ -10,15 +13,16 @@ class HornedBeast extends React.Component {
     
         this.state = {
             count:0
+
         }
     }
     
     increment = () => {
         // let nextState = {count: this.state.count + 1}
         // this.setState(nextState);
-        
-        this.setState( {count: this.state.count +1 });
-        this.props.handler( this.props.value.name )
+        let numberOfVotes = this.state.count +1;
+        this.setState( {count: numberOfVotes });
+        this.props.handler( this.props.beast )
     } 
 
     render() {
@@ -32,7 +36,7 @@ class HornedBeast extends React.Component {
             <p>Keyword: {this.props.keyword}</p>
             <p>Horns: {this.props.horns}</p>
             <Counter theCounter={this.increment} theCount={this.state.count}/>
-
+            {/* <SelectedBeast /> */}
             </div>
             </>
         )

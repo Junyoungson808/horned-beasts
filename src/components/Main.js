@@ -1,11 +1,11 @@
 import React from "react";
 import HornedBeast from "./HornedBeast.js";
 import data from "../data.json";
-import Modal from "react-bootstrap/Modal";
-import Button from "react-bootstrap/Button";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import SelectedBeast from "./SelectedBeast.js";
+// import SelectedBeast from "./SelectedBeast.js";
 
 console.log(data);
 
@@ -13,13 +13,14 @@ class Main extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      show: false,
       currentName: "",
+      show: false,
+      selectedBeast: {},
     };
   }
 
   loveHornedBeast = (beast) => {
-    this.handleOpen();
+    this.handleOpen(beast);
     this.setState( {currentName: this.state.currentName})
   };
 
@@ -27,9 +28,10 @@ class Main extends React.Component {
     this.setState({ show: false });
   };
 
-  handleOpen = () => {
-    this.setState({ show: true });
+  handleOpen = (beast) => {
+    this.setState({ show: true, selectedBeast: beast });
   };
+
 
   beastItem = data.map((value) => {
     return (
@@ -41,34 +43,27 @@ class Main extends React.Component {
           keyword={value.keyword}
           horns={value.horns}
           handler={this.loveHornedBeast}
-          value={value}
+          beast={value}
           />
         </Col>
     );
   });
-
+  
   render() {
     return (
       <>
         <Container className="container1">
           <Row sm="1" md="2" lg="3">
             {this.beastItem}
+            <SelectedBeast 
+            selectedBeast = {this.state.selectedBeast}
+            show = {this.state.show}
+            handleClose={this.handleClose}/>
           </Row>
+
         </Container>
         <main>
-          <Modal show={this.state.show} onHide={this.handleClose}>
-            <Modal.Header closeButton>
-              <Modal.Title>{this.props.currentName}</Modal.Title>
-            </Modal.Header>
-            <Modal.Body>
-              <img src={this.state.image} width="300" alt={this.state.title} />
-            </Modal.Body>
-            <Modal.Footer>
-              <Button variant="secondary" onClick={this.handleClose}>
-                Close
-              </Button>
-            </Modal.Footer>
-          </Modal>
+
         </main>
       </>
     );
