@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import SelectedBeast from "./SelectedBeast.js";
-// import SelectedBeast from "./SelectedBeast.js";
+import FilterForm from "./Form";
 
 console.log(data);
 
@@ -54,6 +54,7 @@ class Main extends React.Component {
       <>
         <Container className="container1">
           <Row sm="1" md="2" lg="3">
+            <FilterForm />
             {this.beastItem}
             <SelectedBeast 
             selectedBeast = {this.state.selectedBeast}
