@@ -1,4 +1,5 @@
-### Lab 1:
+# Lab 1
+
 Number and name of feature: __React__
 
 Estimate of time needed to complete: _5 hours_
@@ -9,7 +10,8 @@ Finish time: _10:00pm_
 
 Actual time needed to complete: _7 hours_
 
-### Lab 2:
+## Lab 2
+
 Number and name of feature: ___React State and Props__
 
 Estimate of time needed to complete: _5 hours_
@@ -20,7 +22,8 @@ Finish time: _6:00_
 
 Actual time needed to complete: _3:30_
 
-### Lab 3:
+## Lab 3
+
 Number and name of feature: __Gallary Of Horns__
 
 Estimate of time needed to complete: _5 hours_
@@ -31,7 +34,8 @@ Finish time: _7:38_
 
 Actual time needed to complete: _4:38_
 
-### Lab 4:
+## Lab 4
+
 Number and name of feature: __Filter by Number of Horns__
 
 Estimate of time needed to complete: _5 hoursish_
@@ -42,7 +46,8 @@ Finish time: _8:54_
 
 Actual time needed to complete: _4:54_
 
-### Lab 5:
+## Lab 5
+
 Number and name of feature: __Gallary Of Horns__
 
 Estimate of time needed to complete: _5 hours_
